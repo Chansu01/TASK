@@ -1,0 +1,43 @@
+
+div.top{
+    border: 1px solid black; /* 경계 */
+    text-align: center;     /* 텍스트 가운데로  */
+    background-color: white;   /* 배경 색  */
+    width: 100%;                 /* 가로 크기, 가로는 거의 100% */
+    padding-bottom: 5%;          /* padding 크기 지정, padding-top, right, left, bottom 등으로 나눌 수 있음, 해당하는쪽 방향으로 크기가 늘어남 */
+     
+
+}
+div.grid{            /* 그리드 안에다가 여러개를 넣을 수 있음 */
+    display:flex;        /* 해줘야 안에다가 넣어짐  */
+    text-align: center;
+    border: 1px solid black;
+
+
+}
+div.left{
+    background-color: violet;
+    height: 500px;   /* 그리드 안에 들어가는 div들 중 하나만 크기 정해줘도 전부 다 바뀜  */
+    flex:1;      /* 비율로 크기 지정 */
+    
+
+}
+div.main{
+    background-color: rebeccapurple;
+    flex:2;
+
+}
+
+div.right{
+    background-color: wheat;
+    flex:1;
+
+}
+
+div.bottom{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    width: 100%;    
+    padding-bottom: 5%;
+}
